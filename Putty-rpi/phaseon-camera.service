@@ -1,0 +1,14 @@
+[Unit]
+Description=KingFisher PHASEON camera barcode decoder
+After=multi-user.target
+
+[Service]
+Type=simple
+User=rpi
+WorkingDirectory=/home/rpi/barcode_project
+ExecStart=/home/rpi/barcode_project/.venv/bin/python /home/rpi/barcode_project/phaseon_uart_camera.py --port /dev/serial0
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+opencv-python
+pyzbar
+pytest
+python-barcode
+Pillow
+# Optional fourth decoder; requires a Dynamsoft license key.
+# dynamsoft-barcode-reader-bundle

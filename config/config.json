@@ -1,0 +1,8 @@
+{
+  "camera_index": 0,
+  "expected_sample_type": "WATER",
+  "sample_database": "data/sample_database.json",
+  "output_csv": "data/scan_results.csv",
+  "roi_width": 900,
+  "roi_height": 300
+}

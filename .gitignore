@@ -1,0 +1,51 @@
+# Python environments and bytecode
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Datasets and generated data
+Dataset/
+Dataset_*/
+data/
+barcode_quality_project/data/
+
+# Generated reports, predictions, diagnostics, and debug captures
+outputs/
+test_output/
+debug/
+barcode_quality_project/outputs/
+*.log
+
+# Trained weights and generated model checkpoints
+EfficientNet_B0/Models/
+EfficientNet_B0/results/
+barcode_quality_project/models/
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Common build and packaging outputs
+build/
+dist/
+*.egg-info/
